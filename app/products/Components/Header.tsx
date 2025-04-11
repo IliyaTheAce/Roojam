@@ -2,7 +2,7 @@
 import {ICategory} from "@/Types/Category.Type";
 import Image from "next/image";
 import {useRef} from "react";
-import {usePathname, useRouter, useSearchParams} from "next/navigation";
+import { useRouter, useSearchParams} from "next/navigation";
 
 export default function Header({category}: { category: ICategory | null }) {
 	const searchRef = useRef<HTMLInputElement>(null);

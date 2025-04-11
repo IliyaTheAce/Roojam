@@ -26,8 +26,8 @@ type ResponseType = {
 
 export default async function ProductsList({
 											   searchParams
-										   }: { searchParams: SearchParamsType }) {
-	const params = await searchParams
+										   }: { searchParams: Promise<SearchParamsType>  }) {
+	const params:SearchParamsType = await searchParams
 	const result = await ApiService<ResponseType>({
 		method: "GET",
 		url: `/products`,

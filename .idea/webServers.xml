@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e2ffeb7d-b8db-468c-a7a0-d32eecc2b493" name="Roojam" url="http://laravel@roojam.com">
+        <fileTransfer rootFolder="/public_html/Roojam" host="laravel@roojam.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

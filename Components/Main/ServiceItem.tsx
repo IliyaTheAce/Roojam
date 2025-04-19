@@ -10,8 +10,8 @@ export default function ServiceItem({
   color: string;
 }) {
   return (
-    <div className="col-lg-4 col-md-6">
-      <div className={`single-services-two ${color}`}>
+    <div className="col-lg-4 col-md-6 flex">
+      <div className={`single-services-two flex-grow ${color}`}>
         <div className="icon">
           <i className={icon}></i>
         </div>
